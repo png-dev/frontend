@@ -13,6 +13,8 @@ def make_dir(dir_path):
 class DefaultConfig(object):
     DEBUG = True
 
+    INFO_LOG = "info.log"
+    ERROR_LOG = "error.log"
     LOG_FOLDER = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'logs')
 
 
